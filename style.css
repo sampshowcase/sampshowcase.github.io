@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+	background-color: #000;
+	margin: 5;
+	padding: 10;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	padding-top: 5px;
+	height: 5px;
+	color: #fff;
+}
+
+h3 {
+	font-weight: normal;
+	letter-spacing: 0.2em;
+	width: 555px;
+	height: 5px;
+	color: #fff;
+	font-size: 15px;
+	padding-top: 0px;
+	display: inline-block;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.center {
+	position: absolute; 
+	width: 99%; 
+	top: 40%; 
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+.order {
+	position:absolute; 
+	width: 99%; 
+	top: 2%; 
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+p {
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 45px;
+	margin: 5px 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 9px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: 600;
+	color: #000;
+	background: white;
+	box-shadow: 0 8px 15px rgba(0,0,0,.1);
+	transition: .5s;
+}
+
+a:hover {
+	background: #000;
+	color: white;
+	transform: translateY(-5px);
+}
